@@ -1,0 +1,35 @@
+.novidades {
+    background: var(--branco);
+    text-align: left;
+    padding: 0.5em 1em;
+}
+
+.novidades__titulo {
+    margin: 1em 0;
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--azul-degrade);
+}
+
+.novidades__texto {
+    margin: 1em 0 1em 0;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.novidades__pesquisa {
+    font-weight: 200;
+    border-radius: 40px;
+    border: 1px solid;
+    width: 100%;
+    padding: 1em;
+}
+
+.novidades__pesquisa::placeholder{
+    font-family: var(--fonte-principal);
+    background: url(../imagens/Email.svg) no-repeat;
+    padding-left: 2em;
+    color: var(--azul-degrade);
+}
+
+
