@@ -1,35 +1,55 @@
-.novidades {
+.contato {
     background: var(--branco);
     text-align: left;
     padding: 0.5em 1em;
 }
 
-.novidades__titulo {
+.contato__titulo {
     margin: 1em 0;
     font-size: 19px;
     font-weight: 700;
     color: var(--azul-degrade);
 }
 
-.novidades__texto {
+.contato__texto {
     margin: 1em 0 1em 0;
     font-weight: 300;
     font-size: 18px;
 }
 
-.novidades__pesquisa {
+.contato__email {
     font-weight: 200;
     border-radius: 40px;
     border: 1px solid;
-    width: 100%;
+    width: 90%;
     padding: 1em;
 }
 
-.novidades__pesquisa::placeholder{
+.contato__email::placeholder{
     font-family: var(--fonte-principal);
     background: url(../imagens/Email.svg) no-repeat;
     padding-left: 2em;
     color: var(--azul-degrade);
 }
 
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato__titulo {
+        font-size: 24px;
+    }
+
+    .contato__descrição {
+        margin-right: 1em;
+        width: 30%;
+    }
+
+    .contato__email {
+        width: 30%;
+    }
+}
 
